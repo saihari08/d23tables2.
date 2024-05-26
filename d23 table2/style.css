@@ -1,0 +1,37 @@
+
+
+thead{
+    background-color:aqua;
+}
+tbody{
+    background-color: lightskyblue;
+}
+
+
+table{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+td,th{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+tr:nth-child(even)
+{
+    background-color: brown;
+}
+tr:hover{
+    background-color: blue;
+}
+caption{
+    background-color: orangered;
+    color: white;
+    font-size: 2rem;
+}
